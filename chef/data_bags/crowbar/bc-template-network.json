@@ -166,6 +166,20 @@
             "host": { "start": "192.168.126.2", "end": "192.168.126.127" }
           }
         },
+        "public2": {
+          "conduit": "intf1",
+          "vlan": 600,
+          "use_vlan": true,
+          "add_bridge": false,
+          "subnet": "192.168.128.0",
+          "netmask": "255.255.255.0",
+          "broadcast": "192.168.128.255",
+          "router": "192.168.128.1",
+          "router_pref":  5,
+          "ranges": {
+            "host": { "start": "192.168.128.2", "end": "192.168.128.127" }
+          }
+        },
         "nova_fixed": {
           "conduit": "intf1",
           "vlan": 500,
@@ -190,6 +204,18 @@
           "broadcast": "192.168.126.255",
           "ranges": {
             "host": { "start": "192.168.126.129", "end": "192.168.126.254" }
+          }
+        },
+        "nova_floating2": {
+          "conduit": "intf1",
+          "vlan": 600,
+          "use_vlan": true,
+          "add_bridge": false,
+          "subnet": "192.168.128.128",
+          "netmask": "255.255.255.128",
+          "broadcast": "192.168.128.255",
+          "ranges": {
+            "host": { "start": "192.168.128.129", "end": "192.168.128.254" }
           }
         },
         "bmc": {

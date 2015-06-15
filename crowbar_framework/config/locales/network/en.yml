@@ -52,6 +52,7 @@ en:
       nova_fixed: 'Nova Fixed'
       nova_floating: 'Nova Floating'
       public: 'Public'
+      public2: 'Public2'
       private: 'Private'
       storage: 'Storage'
     controller:
